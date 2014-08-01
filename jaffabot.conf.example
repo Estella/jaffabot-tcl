@@ -1,0 +1,19 @@
+set server {eu.iso.rizon.net 6667}
+
+set nick "RandumBot"
+set myaddr ""
+set email "botbot"
+set realname "Botty"
+set perform ""
+
+#CHANGE THIS! This is like the +n on an eggdrop.
+set admin "*!*@mmm.bacon.and.rice.krispies"
+
+source testscript.tcl
+source bots.tcl
+loadmod botstrig
+source dice.tcl
+loadmod dice
+
+#You can also load and unload modules at runtime
+# if your hostmask matches set admin.
