@@ -11,7 +11,7 @@ Rather than being in PHP and using JSON, it's in TCL and uses SQLite.
 Running is simple. Once you've prepped your config file (the S= in front of a server
 is NOT currently supported but is also a planned feature) just type
 ```
-./main.tcl &lt;config file&gt;
+./main.tcl <config file>
 ```
 
 replacing &lt;config file&gt; with the config file's name.
