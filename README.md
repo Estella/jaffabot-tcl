@@ -55,7 +55,7 @@ Public commands so far implemented:
  Implemented in ./testscript.tcl
  Module testscript
 .bots
- Check for bots
+ Check for bots that reply to .bots
  Implemented in ./bots.tcl
  Module botstrig
 !ping
